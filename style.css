@@ -24,7 +24,7 @@ body {
 
 #qr-code {
     border-radius: 1rem;
-    width: 50vh;
+    width: 45vh;
     height: 50vh;
 }
 
@@ -34,18 +34,19 @@ p {
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 700;
-    min-width: 90%;
-    margin-left: 5%;
+    min-width: 100%;
+    margin-left: auto;
+    padding-top: 0.5rem;
 }
 
 p {
     font-size: 15px;
     font-weight: 400;
     opacity: 0.65;
-    min-width: 70%;
-    margin-left: 10%;
+    min-width: 75%;
+    margin-left: auto;
 }
 
 .attribution {
@@ -58,6 +59,13 @@ p {
     color: salmon;
 }
 
-@media only screen and (max-width: 375px) {}
+@media (max-width: 375px) {
 
-@media only screen and (max-width: 1440px) {}
+    h1 {
+        font-size: 10vw;
+    }
+
+    p {
+        font-size: 5vw;
+    }
+}
