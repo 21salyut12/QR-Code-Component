@@ -46,7 +46,7 @@ p {
     font-weight: 400;
     opacity: 0.65;
     min-width: 75%;
-    margin-left: auto;
+    margin-left: 2rem;
 }
 
 .attribution {
@@ -57,15 +57,4 @@ p {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
     color: salmon;
-}
-
-@media (max-width: 375px) {
-
-    h1 {
-        font-size: 10vw;
-    }
-
-    p {
-        font-size: 5vw;
-    }
 }
